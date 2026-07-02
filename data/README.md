@@ -1,5 +1,8 @@
 # Data Folder
 
-This folder is for the CMS Hospital Readmissions Reduction Program (HRRP) dataset used in this project.
+This folder contains the CMS Hospital Readmissions Reduction Program (HRRP) dataset used for this project.
 
-The raw CSV file is not included in this repository. Download the current HRRP dataset from CMS, then import it into the `hrrp` table in MySQL before running the analysis queries.
+The dataset was imported into the `hrrp` table in MySQL and used to create the `facilities`, `measures`, and `readmission_results` tables for analysis.
+
+## Source
+Centers for Medicare & Medicaid Services (CMS) Hospital Readmissions Reduction Program data.
