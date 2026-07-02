@@ -41,3 +41,41 @@ The project starts with a raw import table named `hrrp`. The data is then organi
 ## Author
 Naterria Horton-Davis  
 Master of Health Information Management — Data Analytics & Informatics
+
+
+## Project Screenshots
+
+### Database and Normalized Tables
+The `hrrp_analysis` database includes the raw HRRP table and normalized tables for facilities, measures, and readmission results.
+
+![Database and Normalized Tables](screenshots/01_database_and_normalized_tables)
+
+### Raw HRRP Data Preview
+This query previews records from the raw HRRP table after importing the CMS data.
+
+![Raw HRRP Data Preview](screenshots/02_raw_hrrp_data_preview)
+
+### Query 1: Facilities by State
+This query lists hospital facilities alphabetically by state.
+
+![Facilities by State](screenshots/03_query_1_facilities_by_state)
+
+### Query 2: Hospital Count by State
+This query counts the number of hospitals represented in each state. Texas had the highest count in this dataset, followed by California and Florida.
+
+![Hospital Count by State](screenshots/04_query_2_hospital_count_by_state)
+
+### Query 3: States With More Than 100 Hospitals
+This query filters for states with more than 100 hospitals in the dataset.
+
+![States With More Than 100 Hospitals](screenshots/05_query_3_states_over_100_hospitals)
+
+### Query 4: Average Excess Readmission Ratio by Condition
+This query calculates the average excess readmission ratio for each HRRP readmission measure.
+
+![Average Excess Ratio by Condition](screenshots/06_query_4_avg_excess_ratio_by_condition)
+
+### Query 5: Hospitals With Excess Readmission Ratios Above 1.0
+This query joins the facilities and readmission results tables to identify hospital-condition results with an excess readmission ratio above 1.0.
+
+![Hospitals With Ratios Above 1.0](screenshots/07_query_5_hospitals_above_ratio_1)
